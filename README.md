@@ -23,6 +23,6 @@ La page «Nous rejoindre» est un formulaire pour entrer en contact avec Frial a
   
   <div align="center">
 <h3>🧰 Langages et outils</h3>
-<img src="https://cdn.discordapp.com/attachments/1055095464380338178/1117508725704495274/Sans_titre-1.png"  />
+<img src="https://skillicons.dev/icons?i=html,css,vscode" alt="skill badges icons" />
 </div>
 
