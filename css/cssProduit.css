@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+* {
+  font-family:arial;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.distri
+{ 	background:rgb(255, 156, 100);
+	color:rgb(255, 255, 255);
+	font-size:35px;
+	padding:120px;
+	font-family:sans-serif;
+}
+.tdist
+{	font-size:30px;
+	font-family:sans-serif;
+	color:rgb(255, 156, 10);
+	padding:0px;
+	margin:0px;
+}
+body
+{
+	padding:0;
+	margin:0;
+}
+.bdsit
+{ font-size:15px;
+font-family:sans-serif;
+color:rgb(50, 0, 100);
+padding:0px;
+}
+.tdist2
+{	font-size:30px;
+	font-family:sans-serif;
+	color:rgb(0, 156, 255);
+	padding:0px;
+	margin:0px;
+}
+.distri2
+{ 	background:rgb(100, 200, 220);
+	color:rgb(255, 255, 255);
+	font-size:35px;
+	font-family:sans-serif;
+	margin-left:17%;
+	margin-right:14%;
+}
+.main-head {
+  background: url(../img/banner1.png);
+  padding: 3.8rem;
+  color: #ffffff;
+  top: 90px;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 5%;
+}
+
+/*positions des redirections*/
+
+nav ul {
+  margin-left: 1000px;
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 8px 15px;
+  border-radius: 10px;
+  transition: 0.2s ease-in;
+}
+
+/*couleur des boutons*/
+
+nav ul li a {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/*arrière plan des boutons*/
+
+nav ul li:hover {
+  background-color: #ea6400;
+}
+
+nav .menubtn {
+  font-size: 1000px;
+  font-weight: bolder;
+  cursor: pointer;
+  display: none;
+}

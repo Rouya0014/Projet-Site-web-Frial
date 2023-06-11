@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+*{
+  font-family:arial;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p{	
+	font-size: 20px;	
+}
+body{
+  font-family: arial, sans-serif;
+}
+h1{
+	font-family: arial;
+	color:  #f06d52 ;
+	text-align: center;
+	font-size: 60px;
+}
+table{
+	background: url(../img/cubevert.jpg);
+	height:100%;
+	width:100%;
+}
+.eco{
+	background: #afd59a;
+}
+.heco{
+	background: #4aa516;
+}
+.peche{
+	background: #bee9e3;
+}
+.hpeche{
+	background: #409ea4;
+}
+.huseu{
+	background: #f7af70;
+}
+.useu{
+	background: #ffdfc2;
+}
+tr{
+	text-align: center;
+}
+
+.main-head {
+  background: url(../img/banner1.png);
+  padding: 3.8rem;
+  color: #ffffff;
+  top: 90px;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 5%;
+}
+
+/*positions des redirections*/
+
+nav ul {
+  margin-left: 1000px;
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 8px 20px;
+  border-radius: 10px;
+  transition: 0.2s ease-in;
+}
+
+/*couleur des boutons*/
+
+nav ul li a {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/*arrière plan des boutons*/
+
+nav ul li:hover {
+  background-color: #ea6400;
+}
+
+nav .menubtn {
+  font-size: 1000px;
+  font-weight: bolder;
+  cursor: pointer;
+  display: none;
+}

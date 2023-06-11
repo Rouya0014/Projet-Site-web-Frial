@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial
+}
+body{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background: #f2f2f2;
+}
+/*Bannière*/
+
+.main-head {
+  background: url(../img/banner.png);
+  padding: 3.8rem;
+  color: #ffffff;
+  top: 90px;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 5%;
+}
+
+/*positions des redirctions*/
+
+nav ul {
+  margin-left: 1000px;
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 8px 15px;
+  border-radius: 10px;
+  transition: 0.2s ease-in;
+}
+
+/*couleur des boutons*/
+
+nav ul li a {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/*arrière plan des boutons*/
+nav ul li:hover {
+  background-color: #ea6400;
+}
+nav .menubtn {
+  font-size: 30px;
+  font-weight: bolder;
+  cursor: pointer;
+  display: none;
+}
+
+/*Box*/
+
+.wrapper{
+  display: grid;
+  margin: 200px 90px auto;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.wrapper .box{
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  perspective: 1000px;
+}
+
+/*Box couleur, ombre, positions de texte*/
+
+.wrapper .box .front-face{
+  background: linear-gradient(-135deg, #c850c0, #f08230);
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 5px 20px 0px rgba(0, 81, 250, 0.1);
+ 
+}
+
+/*Texte*/
+
+.box .front-face span{
+  font-size: 22px;
+  font-weight: 800;
+  text-transform: uppercase;   /*Titre*/
+  color: #fff;
+  height: 20px;
+}
+
+.box .front-face p{
+  padding: 30px;
+  margin-top: 10px;           /*Commentaire*/
+  text-align: justify;
+  color: #fff;
+}
+
+/*ombre de l'image*/
+
+img {
+  box-shadow: 0px 5px 25px 0px rgba(0, 81, 250, 0.1);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link type="text/css" rel="stylesheet" href="css/formulaire.css" />
+    <title>Candidature</title>
+	<!--créer une icone au titre-->
+    <link rel="icon" href="./img/logo.png">
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <!-- définir le titre de la page -->
+        <p>Candidature</p>
+        <!-- définir le choix -->
+        <div class = "select">
+        <select name="Liste_déroulante" id="Liste_déroulante"">
+          <option selected disabled>Type de contrat</option>
+          <option value="1">Alternance</option>
+          <option value="2">CDD</option>
+          <option value="3">CDI</option>
+        </select>
+    </div>
+    <!-- définir les différentes partie à remplir -->
+        <input type="text" placeholder="Nom" /><br />
+        <input type="text" placeholder="Prénom" /><br />
+        <input type="email" placeholder="Email" /><br />
+        <input type="text" placeholder="Téléphone" /><br />
+        <input placeholder="CV :" />
+        <input type="file"/><br />
+        <input placeholder="Lettre de motivation :" />
+        <input type="file" /><br />
+        <input type="reset" value="Envoyer" /><br />
+        <!-- définir la redirections vers les autres pages -->
+          <a href="index.html">Accueil</a>
+          <a>-</a>
+          <a href="Produits.html">Produits</a>
+          <a>-</a>
+          <a href="Actu.html">Actualité</a>
+          <a>-</a>
+          <a href="Service.html">Service proposé</a>
+          <a>-</a>
+          <a href="Condition.html">Politique de confidentialité</a>
+      </form>
+    </div>
+    <!-- imagre du logo de frial -->
+    <img src="./img/logo.png" />
+  </body>
+</html>
