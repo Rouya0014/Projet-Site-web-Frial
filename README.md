@@ -16,6 +16,8 @@ La page «Index/accueil» présente brièvement l’entreprise.
 La page «Produits» permet de lister les produits que l’entreprise propose.
 
 La page «Nous rejoindre» est un formulaire pour entrer en contact avec Frial avec pour objectif d’obtenir un contrat de travail.
+
+[Un appercu du projet est disponnible en cliquant ici](https://rouya0014.github.io/Projet-Site-web-Frial/)
   
    T. Théo & L. Sacha
   
